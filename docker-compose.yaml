@@ -7,7 +7,7 @@ services:
       - "5672:5672"
     volumes:
       - ./config/rabbitmq/rabbit.conf:/etc/rabbit/rabbit.conf
- 
+
 
   backend:
     image: redis
